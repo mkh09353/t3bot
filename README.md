@@ -1,5 +1,7 @@
 # t3codes
 
+> **This fork** adds two rules on top of upstream: each bot keeps its worker threads in its own T3 collection (`bot:<slug>`), and a thread is only settled once its change is confirmed working, never just because its PR merged. Bot updates come from this fork, not upstream.
+
 A Grok Bot / Muse style personal bot for T3 Code. Clone it, open a thread in the folder, and the bot wakes up: it interviews you, picks a personality that fits you, remembers you in plain files, checks in on a heartbeat, runs routines while you are away, and hands work to agents on any provider, in this folder or your other repos.
 
 It works with any T3 provider that reads `AGENTS.md` or `CLAUDE.md` (Claude, Codex, Pi, ...). It has no server, no database, and nothing to install.

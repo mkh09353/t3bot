@@ -9,6 +9,9 @@
 <!-- - <what> | peer: <Name> | thread: <their home threadId> | started <date> | check: <how to verify>   (you asked a peer) -->
 <!-- - <what> | for: <Name> | reply to <threadId> | started <date>   (a peer asked you) -->
 
+## Verifying
+<!-- - <what> | thread: <threadId> | merged <date> | confirm: <how: user tries it, deploy check, smoke test> -->
+
 ## Follow-ups
 <!-- - <date/time> <what I promised to check or do> -->
 
